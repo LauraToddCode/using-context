@@ -1,17 +1,12 @@
 import React from "react";
-import { Context } from "./Context";
 
 function Result() {
-        return (
-            <div>
-                <h3>Result</h3>
-                <Context.Consumer>
-                    {(context) => (
-                        <p>{context.state.season}</p>
-                    )}
-                </Context.Consumer>
-            </div>
-        )
+    return (
+        <div>
+            <h3>Result</h3>
+            <p></p>
+        </div>
+    )
 }
 
 export default Result;
