@@ -1,2 +1,2 @@
 # using-context
- Example code for a blog post about using Contect in React
+ Example code for an upcoming blog post about using Context in React
